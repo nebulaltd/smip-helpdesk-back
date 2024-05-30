@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "@vitejs/plugin-react": "^4.2.0",
+        "autoprefixer": "^10.4.17",
+        "axios": "^1.6.7",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^1.0.0",
+        "postcss": "^8.4.33",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "sass": "^1.56.1",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@hassanmojab/react-modern-calendar-datepicker": "^3.1.7",
+        "lodash": "^4.17.21",
+        "lottie-web": "^5.12.2",
+        "moment": "^2.30.1",
+        "react-beautiful-dnd": "^13.1.1",
+        "react-collapse": "^5.1.1",
+        "react-data-table-component": "^7.6.2",
+        "react-datepicker": "^6.2.0",
+        "react-drag-drop-files": "^2.3.10",
+        "react-hot-toast": "^2.4.1",
+        "react-icons": "^5.0.1",
+        "react-modern-calendar-datepicker": "^3.1.6",
+        "react-paginate": "^8.2.0",
+        "react-refresh": "^0.14.0",
+        "react-router-dom": "^6.21.3"
+    }
+}
