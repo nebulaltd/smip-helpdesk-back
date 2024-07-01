@@ -2,8 +2,6 @@
 
 namespace App\Providers;
 
-use App\Models\tmp\Club;
-use App\Observers\ClubObserver;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +21,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Club::observe(ClubObserver::class);
+        //
     }
 }
