@@ -36,7 +36,9 @@ Route::post('login', [LoginController::class, 'login']);
 //Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
 //Route::post('register', 'Auth\RegisterController@register');
 
-Route::middleware('auth:api')->group(function () {
+//TODO: add routes for guest users
+
+//Route::middleware('auth:api')->group(function () {
     Route::get('dashboard', [DashboardController::class, 'dashboard']);
 
     Route::get('count', [NotificationController::class, 'count']);
@@ -143,5 +145,5 @@ Route::middleware('auth:api')->group(function () {
     Route::post('user-store', [App\Http\Controllers\Admin\AdminController::class, 'saveUser']);
     Route::get('user/{id}/edit', [App\Http\Controllers\Admin\AdminController::class, 'userEdit']);
     Route::put('user-update/{id}', [App\Http\Controllers\Admin\AdminController::class, 'userUpdate']);
-});
+//});
 
