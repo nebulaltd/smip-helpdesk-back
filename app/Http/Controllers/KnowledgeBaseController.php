@@ -29,7 +29,7 @@ class KnowledgeBaseController extends Controller
             $data = $query;
         }
 
-        return $this->successResponse($data);
+        return $this->successResponse($data->get());
     }
 
     public function store(Request $request)
